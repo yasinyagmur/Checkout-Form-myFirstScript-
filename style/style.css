@@ -26,7 +26,7 @@
 }
 
 img {
-    width: 10rem;
+    width: 13rem;
     border-radius: 50%;
 }
  
@@ -43,7 +43,7 @@ img {
 
 
 .current-price {
-    color: #f2994a;
+    color: #f27f4a;
     font-size: 1.5rem;
 }
 .container h4{
@@ -76,7 +76,7 @@ img {
 
 .info {
     margin-top: 4rem;
-    height: 10vh;
+    height: 8vh;
     color: #4E5150;
 }
 
