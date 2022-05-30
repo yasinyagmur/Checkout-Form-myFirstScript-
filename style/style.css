@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 2rem;
+}
+.container .title{
+    display: flex;
+    color: #4E5150;    
+}
+.shopping-cart {
+    max-width: max-content;
+    padding: 0.8rem 1.3rem;
+    background-color: rgb(225, 208, 208);
+    border-radius: 20px;
+    
+}
+.container p{
+    font-size: 2rem;
+}
+
+img {
+    width: 10rem;
+    border-radius: 50%;
+}
+ 
+.product{
+    display: flex;
+    margin: 1rem 0 2rem 0;
+    color: #4E5150;
+}
+
+.price {
+    margin: 0rem 1.5rem;
+    
+}
+
+
+.current-price {
+    color: #f2994a;
+    font-size: 1.5rem;
+}
+.container h4{
+    font-size: 2rem;
+
+}
+.number {
+    display: flex;
+    border: 2px solid #a7a4a4;
+    height: 2.4rem;
+    width: 6.4rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+}
+
+
+.number button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2vh;
+    background-color: rgb(214, 202, 202);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 4rem;
+    height: 10vh;
+    color: #4E5150;
+}
+
+.shipping-total {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.3rem;
+}
+.remove {
+    background-color: #F2994A;
+    border: #a7a4a4 none solid;
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+    /*
+
+
+@media only screen and (max-width: 540px) {
+    .sections {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    section form {
+        margin-top: 3rem;
+    }
+
+    .shopping-cart {
+        width: 24rem;
+        height: 26rem;
+        margin: 0;
+    }
+    .remove {
+        background-color: #F2994A;
+        border: #a7a4a4 1px solid;
+        margin-top: 4px;
+        border-radius: 4px;
+        width: 6.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+        height: 2rem;
+    }
+}} */
