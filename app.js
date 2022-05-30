@@ -9,7 +9,7 @@ let price2 = Number(document.getElementsByClassName("current-price")[1].innerHTM
 let price3 = Number(document.getElementsByClassName("current-price")[2].innerHTML);
 let shippingCost = Number(document.getElementsByClassName('shippingCost')[0].innerHTML);
 let total = price1 + price2 +price3 + shippingCost ;
-// console.log(total)
+console.log(total)
 let total1 = document.querySelector('.total1')
 
 
@@ -68,3 +68,14 @@ minus[2].addEventListener(`click`,()=>{
     total1.innerHTML = total.toFixed(3)
 
 });
+
+
+const remove1 = document.querySelector(`#remove1`);
+const product1 = document.querySelector(`#product1`);
+
+remove1.addEventListener('click',()=>{
+    product1.style.display ='none';
+    counter1 = 0
+    total = total - price1*counter1;
+    total1.innerHTML = total
+})
